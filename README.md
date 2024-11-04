@@ -36,16 +36,17 @@ Here’s a general breakdown of typical fields in sales data:
 
 - Top 5 customers by total purchase amount
   ```SQL
- SELECT TOP 5 
+  SELECT TOP 5 
     CustomerID,
     SUM(Revenue) AS TotalPurchaseAmount
-FROM 
+  FROM 
     LITA_CAPSTONE PROJECT SALES
-GROUP BY 
+   GROUP BY 
     CustomerID, 
     CustomerName
-ORDER BY 
+  ORDER BY 
     TotalPurchaseAmount DESC;
+    ```
 
 
 
