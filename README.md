@@ -48,7 +48,26 @@ Here’s a general breakdown of typical fields in sales data:
     ```
 
   ## Insights
-  
+ - Product Performance:
+        Identified top-performing products based on total sales, revealing high-revenue items and lower-performing products. These insights can guide inventory planning, promotional focus, and product portfolio adjustments.
+
+    Customer Behavior:
+        Analysis of repeat versus one-time buyers shows customer loyalty trends. Repeat customers make up a significant portion of total revenue, indicating the potential for targeted retention and loyalty programs.
+
+    Seasonal Sales Trends:
+        Observed clear seasonal spikes in sales for certain products. These patterns suggest opportunities to boost marketing efforts and stock levels during peak seasons, maximizing revenue potential.
+
+    Revenue Growth:
+        Calculated month-over-month and year-over-year growth rates, showing a consistent upward trend in total sales. This positive growth trajectory supports strategic planning for product expansions and market entry.
+
+  Regional Sales Patterns:
+        Sales data segmented by region shows specific high-performing areas. These insights support targeted regional marketing initiatives and help identify potential new markets for expansion.
+
+    Order Patterns and AOV (Average Order Value):
+        Analysis of customer order patterns and AOV shows opportunities to increase order size, suggesting the potential for bundling or cross-selling strategies to enhance overall revenue.
+
+![Excel Summary](https://github.com/user-attachments/assets/3c8e8dde-6d51-4642-8334-00af62520b78)
+![2024 excel summary](https://github.com/user-attachments/assets/9b444d5a-d9b4-41e8-91f4-92ecc166f8fd)
 
 
 
