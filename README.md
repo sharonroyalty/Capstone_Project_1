@@ -91,14 +91,19 @@ Here’s a general breakdown of typical fields in sales data:
 ## SQL Queries
 - Top 5 total Purchase amount
 ![Totalpurchaseaount](https://github.com/user-attachments/assets/faa29f10-afc8-4a8c-9d28-564235938c50)
+
 - Total Revenue by Product
 ![Total Revenue by product](https://github.com/user-attachments/assets/f2ec94b7-25c1-417a-a7d8-fa4568fb97db)
+
 - Popular Subscription
  ![popular subscription](https://github.com/user-attachments/assets/d5a2e32e-b62c-41da-8bdd-6595f94af3e8)
+
 - Percentage of region
 ![percentage of regional sales](https://github.com/user-attachments/assets/06e2ad61-e1c8-429b-960e-6d874be39d0e)
+
 - Monthly sales amount
 ![onthlysalestotal](https://github.com/user-attachments/assets/8341aa55-6745-43b3-9938-ea0b3d524282)
+
 - Number of sales Transcation
 ![Nuber of sales transaction](https://github.com/user-attachments/assets/7d85ca9b-9ba4-4aea-ace8-676199ee0acf)
 
