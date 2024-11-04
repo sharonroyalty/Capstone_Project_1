@@ -7,12 +7,12 @@ This dataset is foundational for analyzing customer behavior, sales trends, and 
 
 ## Data Collected
 Here’s a general breakdown of typical fields in sales data:
-CustomerID: Unique identifier for each customer. Used to link purchases to specific individuals for analysis.
-OrderDate: The date and time the purchase was made, allowing for time-based analyses.
-ProductID: Identifier for each product sold, such as shirts, shoes, hats, etc.
-Quantity: Number of units sold in a single transaction.
-Unit Price: Price per unit at the time of sale.
-Revenue: Total cost for the transaction, calculated as Quantity * Price.
+- CustomerID: Unique identifier for each customer. Used to link purchases to specific individuals for analysis.
+- OrderDate: The date and time the purchase was made, allowing for time-based analyses.
+- ProductID: Identifier for each product sold, such as shirts, shoes, hats, etc.
+- Quantity: Number of units sold in a single transaction.
+- Unit Price: Price per unit at the time of sale.
+- Revenue: Total cost for the transaction, calculated as Quantity * Price.
 
 ## Tools Used
 - Microsoft Excel
