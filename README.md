@@ -1,7 +1,7 @@
 # Capstone_Project_1
 ## Project Title: Capstone Sales Data
 
-## OVERVIEW
+## Overview
 Sales Data Overview : The sales data contains transaction records for each customer, detailing what items were purchased, the frequency and date of purchases, and customer identifiers. 
 This dataset is foundational for analyzing customer behavior, sales trends, and product popularity.
 
@@ -43,10 +43,12 @@ Here’s a general breakdown of typical fields in sales data:
     LITA_CAPSTONE PROJECT SALES
    GROUP BY 
     CustomerID, 
-    CustomerName
   ORDER BY 
     TotalPurchaseAmount DESC;
     ```
+
+  ## Insights
+  
 
 
 
