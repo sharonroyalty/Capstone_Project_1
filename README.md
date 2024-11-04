@@ -16,14 +16,14 @@ Here’s a general breakdown of typical fields in sales data:
 
 ## Tools Used
 - Microsoft Excel
-    Purpose: Initial data exploration, cleaning, and simple analysis.
-    Usage:Data Cleaning, Pivot Tables, Formulas, Charts
+    - Purpose: Initial data exploration, cleaning, and simple analysis.
+    - Usage:Data Cleaning, Pivot Tables, Formulas, Charts
 - SQL (Structured Query Language)
-    Purpose: Querying and transforming data in a database, as well as handling large datasets more efficiently than Excel.
-    Usage:Data Extraction,Calculating total sales, average subscription duration, and segment counts by subscription type or customer demographics.
+    - Purpose: Querying and transforming data in a database, as well as handling large datasets more efficiently than Excel.
+    - Usage:Data Extraction,Calculating total sales, average subscription duration, and segment counts by subscription type or customer demographics.
 - Power BI
-    Purpose: Advanced data visualization and dynamic reporting for deeper insights into sales and customer trends.
-    Usage: Interactive Dashboards, Calculated Measures, Visualization.
+    - Purpose: Advanced data visualization and dynamic reporting for deeper insights into sales and customer trends.
+    - Usage: Interactive Dashboards, Calculated Measures, Visualization.
 
 
   
