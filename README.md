@@ -65,46 +65,31 @@ Here’s a general breakdown of typical fields in sales data:
 
 ## Metrics
 ![Average sales per product](https://github.com/user-attachments/assets/a0c33c6f-cf90-4ea1-8530-041929a4f6a4)
-High and Low-Performing Products:
 
-    Products with a high average sales value may indicate premium or high-demand items.
-    Products with a low average sales may be cheaper items or ones that are less popular.
+-  High and Low-Performing Products:
+   Products with a high average sales value indicate premium or high-demand items.
+ -  Products with a low average sales are cheaper items or ones that are less popular.
     This helps identify which products are driving more revenue per sale and those that may need better marketing or promotions.
 
-Product Mix Optimization:
+ -  Product Mix Optimization:
+   By understanding which products have higher average sales, we can adjust the inventory and focus on stocking items with high profitability, potentially phasing out or reducing stock for low-performing products.
 
-    By understanding which products have higher average sales, you can adjust your inventory and focus on stocking items with high profitability, potentially phasing out or reducing stock for low-performing products.
-
-Pricing Strategy Evaluation:
-
-    High average sales per product could also indicate an effective pricing strategy, while low values might suggest the need for a price review.
-    Insights on price sensitivity can be obtained by comparing products in similar categories (e.g., comparing average sales between shirts and jackets).
-
-Customer Preferences:
-
-    High average sales for specific products might indicate customer preferences or trends.
+ -   Customer Preferences:
+  High average sales for specific products might indicate customer preferences or trends.
     Tracking these insights over time can help forecast demand, adapt to customer trends, and adjust marketing strategies accordingly.
   
   ![Revenue by region](https://github.com/user-attachments/assets/a4a9a589-72f5-4700-89ce-711324259674)
-  Top-Performing Regions:
+  
+- Top-Performing Regions:
+    Identify South with the highest revenue, which often indicates strong brand presence, higher demand, or better sales channels.
+    These region could be prioritized for additional marketing investment or new product launches.
 
-    Identify regions with the highest revenue, which often indicates strong brand presence, higher demand, or better sales channels.
-    These regions could be prioritized for additional marketing investment or new product launches.
-
-Underperforming Regions:
-
-    Regions with low revenue might reveal areas where brand awareness or distribution could be improved.
+- Underperforming Regions:
+     West Region with low revenue reveal that brand awareness or distribution could be improved.
     Analyzing factors like local competition, pricing differences, or logistical challenges in these regions can help develop targeted strategies to improve sales.
 
-Revenue Concentration:
 
-    Understanding the percentage of total revenue contributed by each region can show revenue concentration. If revenue is highly concentrated in a few regions, there may be risk exposure if demand drops in those areas.
-    Regions contributing a lower percentage of total revenue might present opportunities for expansion or diversification.
 
-Regional Preferences:
-
-    Different regions may prefer different products or services, so analyzing revenue by region alongside product sales can reveal local preferences.
-    For instance, specific products may be more popular in urban vs. rural areas, or certain climates might drive demand for seasonal items (e.g., jackets in colder regions).
 
 
 
