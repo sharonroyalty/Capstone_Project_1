@@ -89,8 +89,20 @@ Here’s a general breakdown of typical fields in sales data:
     Analyzing factors like local competition, pricing differences, or logistical challenges in these regions can help develop targeted strategies to improve sales.
 
 
+![Totalpurchaseaount](https://github.com/user-attachments/assets/faa29f10-afc8-4a8c-9d28-564235938c50)
+
+![Total sales for each product](https://github.com/user-attachments/assets/f944e8f0-3ca3-4e73-9bc7-d1cbbb1e4b8a)
+
+
+![Total Revenue by product](https://github.com/user-attachments/assets/f2ec94b7-25c1-417a-a7d8-fa4568fb97db)
+
+  ![popular subscription](https://github.com/user-attachments/assets/d5a2e32e-b62c-41da-8bdd-6595f94af3e8)
+
+![percentage of regional sales](https://github.com/user-attachments/assets/06e2ad61-e1c8-429b-960e-6d874be39d0e)
+
+![onthlysalestotal](https://github.com/user-attachments/assets/8341aa55-6745-43b3-9938-ea0b3d524282)
+
+![Nuber of sales transaction](https://github.com/user-attachments/assets/7d85ca9b-9ba4-4aea-ace8-676199ee0acf)
 
 
 
-
-  
