@@ -24,6 +24,31 @@ Here’s a general breakdown of typical fields in sales data:
 - Power BI
     - Purpose: Advanced data visualization and dynamic reporting for deeper insights into sales and customer trends.
     - Usage: Interactive Dashboards, Calculated Measures, Visualization.
+ 
+## Formulas Used
+- Count of Products
+  ```EXCEL
+   =COUNTIF(Product_Range, Product_Name)
+
+- Revenue
+  ```EXCEL
+    =Quantity * Price
+
+- Top 5 customers by total purchase amount
+  ```SQL
+ SELECT TOP 5 
+    CustomerID,
+    SUM(Revenue) AS TotalPurchaseAmount
+FROM 
+    LITA_CAPSTONE PROJECT SALES
+GROUP BY 
+    CustomerID, 
+    CustomerName
+ORDER BY 
+    TotalPurchaseAmount DESC;
+
+
+
 
 
   
