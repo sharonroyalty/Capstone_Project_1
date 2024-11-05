@@ -89,29 +89,50 @@ Here’s a general breakdown of typical fields in sales data:
     Analyzing factors like local competition, pricing differences, or logistical challenges in these regions can help develop targeted strategies to improve sales.
 
 ## SQL Queries
-- Top 5 total Purchase amount
+```sql
+SELECT *FROM[dbo].[LITA_Capstone Project sales]
 
-![Totalpurchaseaount](https://github.com/user-attachments/assets/faa29f10-afc8-4a8c-9d28-564235938c50)
+------TOTALSALES FOR EACH PRODUCT CATEGORY------
+SELECT Product,SUM(Revenue) AS TOTALSALES FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY Product 
 
-- Total Revenue by Product
+-----NUMBER OF SALES TRANSACTION IN EACH REGION---
+SELECT REGION,COUNT(QUANTITY) AS NUMBER_OF_TRANSACTIONS FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY REGION
 
-![Total Revenue by product](https://github.com/user-attachments/assets/f2ec94b7-25c1-417a-a7d8-fa4568fb97db)
+-----HIGHEST SELLING PRODUCTS BY TOTALSALES VALUE
+SELECT TOP 1 PRODUCT,SUM(REVENUE) AS TOTALSALES FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY PRODUCT
 
-- Popular Subscription
+-----TOTAL REVENUE PER PRODUCT
+SELECT PRODUCT,SUM(REVENUE) AS TOTALREVENUE FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY PRODUCT
 
- ![popular subscription](https://github.com/user-attachments/assets/d5a2e32e-b62c-41da-8bdd-6595f94af3e8)
+-----MONTHLY SALESTOTAL FOR THE CURRENT YEAR
+SELECT FORMAT(ORDERDATE, '2024-MM') AS MONTH,SUM(REVENUE) AS MONTHLYSALESTOTAL FROM [dbo].[LITA_Capstone Project sales]
+WHERE YEAR(ORDERDATE) = 2023
+GROUP BY FORMAT(ORDERDATE, '2024-MM')
+ORDER BY MONTH 
 
-- Percentage of region
+----TOP 5 CUSTOMERS BY TOTAL PURCHASE AMOUNT-----
+SELECT TOP 5 CUSTOMER_ID,SUM(REVENUE) AS TOTALPURCHASEAMOUNT FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY CUSTOMER_ID
+ORDER BY TOTALPURCHASEAMOUNT DESC
 
-![percentage of regional sales](https://github.com/user-attachments/assets/06e2ad61-e1c8-429b-960e-6d874be39d0e)
+-----PERCENTAGE OF THE TOTALSALES BY EACH REGION----
+SELECT REGION,
+SUM(REVENUE) AS REGIONALSALES,
+(SUM(REVENUE) * 100.0) / (SELECT SUM(REVENUE) FROM [dbo].[LITA_Capstone Project sales]) AS PERCENTAGEOFTOTALSALES FROM [dbo].[LITA_Capstone Project sales]
+GROUP BY REGION
 
-- Monthly sales amount
-
-![onthlysalestotal](https://github.com/user-attachments/assets/8341aa55-6745-43b3-9938-ea0b3d524282)
-
-- Number of sales Transcation
-
-![Nuber of sales transaction](https://github.com/user-attachments/assets/7d85ca9b-9ba4-4aea-ace8-676199ee0acf)
+----PRODUCTS WITH NO SALES IN THE LAST QUARTER---
+SELECT PRODUCT FROM [dbo].[LITA_Capstone Project sales]
+WHERE PRODUCT NOT IN (
+SELECT PRODUCT FROM  [dbo].[LITA_Capstone Project sales]
+WHERE ORDERDATE >=
+DATEADD( QUARTER,-1, GETDATE())
+)
+```
 
 
 
